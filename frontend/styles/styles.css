@@ -27,7 +27,6 @@ h2 {
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   padding-top: 0;
-  padding-bottom: 2rem;
 }
 
 header,
@@ -66,6 +65,7 @@ footer>a {
   height: 20px;
   position: relative;
   width: 40px;
+  margin-left: 0.5rem;
 }
 
 .toggle {
@@ -129,4 +129,9 @@ footer>a {
 .dark-mode .navbar {
   background-color: #1F2022;
   border: none;
+}
+
+.dark-mode__container {
+  display: flex;
+  align-items: center;
 }

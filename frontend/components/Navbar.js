@@ -9,11 +9,14 @@ const Navbar = (props) => {
   return (
     <nav className="navbar">
       <h1>Crypto Tracker</h1>
-      <div className="dark-mode__toggle">
-        <div
-          onClick={toggleMode}
-          className={props.darkMode ? 'toggle toggled' : 'toggle'}
-        />
+      <div className='dark-mode__container'>
+        Dark Mode
+        <div className="dark-mode__toggle">
+          <div
+            onClick={toggleMode}
+            className={props.darkMode ? 'toggle toggled' : 'toggle'}
+          />
+        </div>
       </div>
     </nav>
   )
