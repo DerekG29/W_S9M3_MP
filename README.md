@@ -24,6 +24,8 @@ In this project you'll take this crypto currency tracker app and build two custo
 
 ### 🥷 Tasks
 
+The app has a dark mode toggle in the Navbar component, but the preference does not survive page reloads. You will fix this by going through your tasks below.
+
 **Notes about your tasks:**
 
 - There is no need to install any NPM dependencies nor work outside of these files.
